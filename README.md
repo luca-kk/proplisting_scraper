@@ -64,6 +64,6 @@ cd proplisting_scraper
 Located inside the downloaded repository, run:
 
 ```bash
-poetry install
+poetry install --no-root
 poetry run python proplisting_scraper.py
 ```
