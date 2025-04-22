@@ -1,0 +1,19 @@
+[project]
+name = "realestate-scraper"
+version = "0.1.0"
+description = "Listing scraper for Australian real estate site 'realestate.com.au'"
+authors = [
+    {name = "Luca Katsavos",email = "luca.katsavos@gmail.com"}
+]
+readme = "README.md"
+requires-python = "^3.10"
+dependencies = [
+    "bs4 (>=0.0.2,<0.0.3)",
+    "requests (>=2.32.3,<3.0.0)",
+    "pandas (>=2.2.3,<3.0.0)"
+]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
