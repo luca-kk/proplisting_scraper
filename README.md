@@ -49,8 +49,8 @@ A command-line Python tool for parsing multi-page **Domain.com.au** listing info
 *Option A: Using Git
 
 ```bash
-git clone https://github.com/your-username/realestate_scraper.git
-cd realestate_scraper
+git clone https://github.com/luca-kk/proplisting_scraper.git
+cd proplisting_scraper
 ```
 
 *Option B: Manual Download
@@ -65,5 +65,5 @@ Located inside the downloaded repository, run:
 
 ```bash
 poetry install
-poetry run python realestate_scraper.py
+poetry run python proplisting_scraper.py
 ```
